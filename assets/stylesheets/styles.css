@@ -661,8 +661,8 @@ h1,
   @media only screen and (min-width: 50em) {
     h1,
     .alpha {
-      font-size: 48px;
-      font-size: 3rem; } }
+      font-size: 45px;
+      font-size: 2.8125rem; } }
 
 h2,
 .beta {
@@ -1030,6 +1030,8 @@ input[type="radio"] {
         width: 45%; }
         .hero .hero-info .alpha {
           white-space: nowrap; }
+          .hero .hero-info .alpha .light-text {
+            white-space: normal; }
       .hero .hero-img {
         width: 55%; }
       .hero .lead-text {
