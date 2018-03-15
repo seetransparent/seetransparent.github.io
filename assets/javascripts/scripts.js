@@ -4,7 +4,9 @@ window.odometerOptions = {
 
 $(function() {
   $('.owl-carousel').owlCarousel({
-    items: 1
+    items: 1,
+    autoplay: true,
+    loop: true 
   })
   //Animation when scroll
   var $body = $('body'),
