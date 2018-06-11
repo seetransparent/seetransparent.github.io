@@ -118,4 +118,10 @@ $(function() {
       })
     })
   })
+  function initNav() {
+    const pathname = window.location.pathname.split('/');
+    $(`nav.main-menu > ul > li > a[href="${pathname.pop() || pathname.pop()}"]`).parent().addClass('is-active');
+  }
+  initNav()
+  
 })
